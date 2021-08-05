@@ -39,6 +39,7 @@ final public class Shape_Shooter_TD extends Shape_Shooter_TDAssets {
     public static void main(String[] args) {
         //Initial setup for the program, called on program run
         MainClass.InitialSetup();
+        
     }
 
     private void InitialSetup() {
@@ -273,6 +274,7 @@ final public class Shape_Shooter_TD extends Shape_Shooter_TDAssets {
         final int xSize = ((int) tk.getScreenSize().getWidth());
         final int ySize = ((int) tk.getScreenSize().getHeight());
         //Setup GUI's window properties
+        
         GUIWindow.setLocation(0, 0);
         GUIWindow.setMaximumSize(new Dimension(xSize, ySize));
         GUIWindow.setSize(new Dimension(xSize, ySize));
