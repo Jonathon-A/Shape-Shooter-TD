@@ -1,0 +1,14 @@
+Thu Aug 05 17:49:50 BST 2021 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Thu Aug 05 17:49:50 BST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-017b-1738-9982-ffffd2e09822 
+on database directory C:\Users\Student\Documents\Jon's College Folder\Computer Science\Coursework\v11\Shape_Shooter_2D\Shape_Shooter_TD\Shape_Shooter_TD_Database\Shape_Shooter_TD_Database with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_111/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Program Files\Java\jdk1.8.0_111\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\Student\Documents\Jon's College Folder\Computer Science\Coursework\v11\Shape_Shooter_2D\Shape_Shooter_TD\Shape_Shooter_TD_Database
+Database Class Loader started - derby.database.classpath=''
