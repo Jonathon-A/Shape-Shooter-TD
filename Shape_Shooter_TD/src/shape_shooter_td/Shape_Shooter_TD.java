@@ -39,7 +39,6 @@ final public class Shape_Shooter_TD extends Shape_Shooter_TDAssets {
     public static void main(String[] args) {
         //Initial setup for the program, called on program run
         MainClass.InitialSetup();
-        
     }
 
     private void InitialSetup() {
