@@ -1,5 +1,5 @@
 # Shape-Shooter-TD
-An interactive Tower Defence game with a GUI, account system, leaderboard, tutorial, music, settings, and more.
+An interactive Tower Defence game with a GUI, account system, leaderboard, tutorial, music, settings, database, and more.
 
 Some images of the GUI:
 
