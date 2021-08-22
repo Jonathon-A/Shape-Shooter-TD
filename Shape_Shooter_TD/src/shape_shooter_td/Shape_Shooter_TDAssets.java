@@ -30,7 +30,7 @@ import javax.swing.event.ChangeEvent;
 
 public abstract class Shape_Shooter_TDAssets {
     
-    //Director of project on user's computer
+    //Directory of project on user's computer
     final String UserDirectory = System.getProperty("user.dir") + "\\dist\\";
     //Array of all tile icons
     final protected Icon[] AssetsTileIconArray = {
