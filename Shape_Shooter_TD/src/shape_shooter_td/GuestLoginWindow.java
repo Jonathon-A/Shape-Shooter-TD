@@ -106,7 +106,7 @@ final public class GuestLoginWindow extends Shape_Shooter_TDAssets implements Wi
                 Shape_Shooter_TD.MainClass.AddOperationToQueue("UpdateSettings", null, NewUserSettingsTableEntry, null, "");
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to menu panel
@@ -133,7 +133,7 @@ final public class GuestLoginWindow extends Shape_Shooter_TDAssets implements Wi
                 CancelButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                  //Partial transition to title screen panel

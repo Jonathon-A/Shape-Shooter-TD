@@ -163,7 +163,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
             }
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
             //Changes system properties based on settings
@@ -201,7 +201,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
             }
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
             //Changes system properties based on settings
@@ -238,7 +238,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
             }
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
             //Changes system properties based on settings
@@ -290,7 +290,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
             }
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
             //Changes system properties based on settings
@@ -348,7 +348,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to change email address panel
@@ -385,7 +385,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to change username panel
@@ -422,7 +422,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to change password panel
@@ -459,7 +459,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to delete account panel
@@ -620,7 +620,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
             }
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
             //Changes system properties based on settings
@@ -657,7 +657,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
             }
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
             //Changes system properties based on settings
@@ -698,7 +698,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
                     SaveSettingChanges();
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                     //Full transition to menu panel
@@ -731,7 +731,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
                 Shape_Shooter_TD.MainClass.AddOperationToQueue("UpdateSettings", null, NewUserSettingsTableEntry, null, "");
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to menu panel
@@ -844,7 +844,7 @@ final public class SettingsWindow extends Shape_Shooter_TDAssets implements Wind
                 MenuButton.setIcon(AssetsButtonIconArray[19]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //User's original settings

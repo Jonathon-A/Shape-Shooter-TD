@@ -119,7 +119,7 @@ final public class TitleScreenWindow extends Shape_Shooter_TDAssets implements W
                 LoginToAccount.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Partial transition to account login panel
@@ -151,7 +151,7 @@ final public class TitleScreenWindow extends Shape_Shooter_TDAssets implements W
                 LoginAsGuest.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Partial transition to guest login panel
@@ -178,7 +178,7 @@ final public class TitleScreenWindow extends Shape_Shooter_TDAssets implements W
                 RegisterAccount.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Partial transition to account registration primary panel
@@ -210,7 +210,7 @@ final public class TitleScreenWindow extends Shape_Shooter_TDAssets implements W
                 RecoverAccount.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Partial transition to account recovery primary panel

@@ -153,7 +153,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             if (!"Budget".equals(GameMode)) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -174,7 +174,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             if (!"Bounty".equals(GameMode)) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -195,7 +195,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             if (!"Standard".equals(GameMode)) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -276,7 +276,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             if (Difficulty != 1) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -297,7 +297,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             if (Difficulty != 2) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -318,7 +318,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             if (Difficulty != 3) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -390,7 +390,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             }
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -421,7 +421,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             MapCodeEntryPanel.setText(MapCode);
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -443,7 +443,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
             DrawPath();
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -478,7 +478,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
                     PlayButton.setBackground(AssetsColorArray[1]);
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                     //Partial transition to game panel
@@ -654,7 +654,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
         //Plays key press sound effect
         if (!"Enter map code...".equals(EnteredMapCode)) {
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         }
@@ -1552,7 +1552,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -1586,7 +1586,7 @@ final public class GameCustomisationWindow extends Shape_Shooter_TDAssets implem
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }

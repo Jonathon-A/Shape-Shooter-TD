@@ -69,7 +69,7 @@ final public class MenuWindow extends Shape_Shooter_TDAssets implements WindowFo
                 PlayGameButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to game customisation panel, without tutorial
@@ -109,7 +109,7 @@ final public class MenuWindow extends Shape_Shooter_TDAssets implements WindowFo
                 TutorialButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to game customisation panel, with tutorial
@@ -149,7 +149,7 @@ final public class MenuWindow extends Shape_Shooter_TDAssets implements WindowFo
                 LeaderboardButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //If the all entries from the leaderboard details table have not been retrieved and copied to an array
@@ -199,7 +199,7 @@ final public class MenuWindow extends Shape_Shooter_TDAssets implements WindowFo
                 SettingsButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to settings panel
@@ -249,7 +249,7 @@ final public class MenuWindow extends Shape_Shooter_TDAssets implements WindowFo
                 Shape_Shooter_TD.MainClass.AddOperationToQueue("UpdateSettings", null, NewUserSettingsTableEntry, null, "");
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to title panel
@@ -414,7 +414,7 @@ final public class MenuWindow extends Shape_Shooter_TDAssets implements WindowFo
                 ExitButton.setIcon(AssetsButtonIconArray[28]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Closes the program

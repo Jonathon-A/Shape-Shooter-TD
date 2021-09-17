@@ -228,7 +228,7 @@ final public class AccountRegistrationPrimaryWindow extends Shape_Shooter_TDAsse
         //Plays key press sound effect
         if (!"Enter email address...".equals(EnteredEmailAddress)) {
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         }
@@ -262,7 +262,7 @@ final public class AccountRegistrationPrimaryWindow extends Shape_Shooter_TDAsse
                 if (!"Enter confirmation code...".equals(ConfirmationCodeEntryField.getText())) {
                     //Plays key press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -277,7 +277,7 @@ final public class AccountRegistrationPrimaryWindow extends Shape_Shooter_TDAsse
                 if (!"Enter confirmation code...".equals(ConfirmationCodeEntryField.getText())) {
                     //Plays key press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -385,7 +385,7 @@ final public class AccountRegistrationPrimaryWindow extends Shape_Shooter_TDAsse
                     ConfirmationCodeEntryField.setEditable(false);
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                     //Partial transition to account registration secondary panel
@@ -414,7 +414,7 @@ final public class AccountRegistrationPrimaryWindow extends Shape_Shooter_TDAsse
                 CancelButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Partial transition to title screen panel

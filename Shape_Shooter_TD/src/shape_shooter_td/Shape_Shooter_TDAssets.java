@@ -306,7 +306,7 @@ public abstract class Shape_Shooter_TDAssets {
                 MenuButton.setIcon(AssetsButtonIconArray[19]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to menu panel
@@ -359,7 +359,7 @@ public abstract class Shape_Shooter_TDAssets {
         return NewClip;
     }
 
-    final protected Clip setVolume(final Clip CurrentClip, final int VolumeSetting) {
+    final protected Clip SetVolume(final Clip CurrentClip, final int VolumeSetting) {
         /*
         Changes the volume of the specified sound clip
         It then returns this modified sound clip

@@ -116,7 +116,7 @@ final public class ChangeUsernameWindow extends Shape_Shooter_TDAssets implement
                 //Plays key press sound effect
                 if (!"Enter username...".equals(UsernameEntryField.getText())) {
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -131,7 +131,7 @@ final public class ChangeUsernameWindow extends Shape_Shooter_TDAssets implement
                 //Plays key press sound effect
                 if (!"Enter username...".equals(UsernameEntryField.getText())) {
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -306,7 +306,7 @@ final public class ChangeUsernameWindow extends Shape_Shooter_TDAssets implement
                     Shape_Shooter_TD.MainClass.AddOperationToQueue("FindCurrentUserSettingsEntry", null, null, null, UsernameEntryField.getText());
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                     //Full transition to settings panel
@@ -335,7 +335,7 @@ final public class ChangeUsernameWindow extends Shape_Shooter_TDAssets implement
                 CancelButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to settings panel

@@ -812,7 +812,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
                     }
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }//If the game is at minimum speed
@@ -881,7 +881,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -909,7 +909,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
                     }
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 } //If the game is at minimum speed
@@ -1677,7 +1677,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
             if (!GameOver) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Selects / deselects turret 1 option
@@ -1700,7 +1700,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
             if (!GameOver) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Selects / deselects turret 2 option
@@ -1723,7 +1723,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
             if (!GameOver) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Selects / deselects turret 3 option
@@ -1746,7 +1746,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
             if (!GameOver) {
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Selects / deselects turret recycle option
@@ -2006,7 +2006,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
                     PlayerLaserBarPanel.repaint();
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 } else {
@@ -2797,8 +2797,8 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
         This method plays the turret laser and player laser sound effects
          */
 
-        final Clip LaserSounds = setVolume(GetNewClip(AssetsSoundDirectoryArray[1]), Shape_Shooter_TD.MainClass.getSoundVolume());
-        final Clip PlayerLaserSounds = setVolume(GetNewClip(AssetsSoundDirectoryArray[2]), Shape_Shooter_TD.MainClass.getSoundVolume());
+        final Clip LaserSounds = SetVolume(GetNewClip(AssetsSoundDirectoryArray[1]), Shape_Shooter_TD.MainClass.getSoundVolume());
+        final Clip PlayerLaserSounds = SetVolume(GetNewClip(AssetsSoundDirectoryArray[2]), Shape_Shooter_TD.MainClass.getSoundVolume());
         //Loops while the game is not over
         while (!GameOver) {
             //20 millisecond delay every loop
@@ -2931,7 +2931,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -2967,7 +2967,7 @@ final public class GameWindow extends Shape_Shooter_TDAssets implements WindowFo
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }

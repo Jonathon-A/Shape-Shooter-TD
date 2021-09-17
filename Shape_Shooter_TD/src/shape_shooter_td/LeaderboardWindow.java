@@ -175,7 +175,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
         //Plays key press sound effect
         if (!"Enter map code...".equals(EnteredMapCode)) {
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         }
@@ -383,7 +383,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
             LeaderboardTableFilterUpdate();
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -413,7 +413,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
             LeaderboardTableFilterUpdate();
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
 
@@ -444,7 +444,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
             LeaderboardTableFilterUpdate();
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -540,7 +540,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
             LeaderboardTableFilterUpdate();
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -569,7 +569,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
             LeaderboardTableFilterUpdate();
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -598,7 +598,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
             LeaderboardTableFilterUpdate();
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -674,7 +674,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
                 LeaderboardTableFilterUpdate();
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }
@@ -721,7 +721,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
             LeaderboardTableFilterUpdate();
             //Plays button press sound effect
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         });
@@ -790,7 +790,7 @@ final public class LeaderboardWindow extends Shape_Shooter_TDAssets implements W
                 }
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
             }

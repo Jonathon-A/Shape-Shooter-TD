@@ -233,7 +233,7 @@ final public class ChangeEmailAddressWindow extends Shape_Shooter_TDAssets imple
         //Plays key press sound effect
         if (!"Enter email address...".equals(EnteredEmailAddress)) {
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         }
@@ -267,7 +267,7 @@ final public class ChangeEmailAddressWindow extends Shape_Shooter_TDAssets imple
                 if (!"Enter confirmation code...".equals(ConfirmationCodeEntryField.getText())) {
                     //Plays key press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -282,7 +282,7 @@ final public class ChangeEmailAddressWindow extends Shape_Shooter_TDAssets imple
                 if (!"Enter confirmation code...".equals(ConfirmationCodeEntryField.getText())) {
                     //Plays key press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -408,7 +408,7 @@ final public class ChangeEmailAddressWindow extends Shape_Shooter_TDAssets imple
                     ConfirmationCodeEntryField.setEditable(false);
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                     UserAccountsTableEntry ChangedUserAccountsTableEntry = new UserAccountsTableEntry(Shape_Shooter_TD.MainClass.getUsername(),
@@ -443,7 +443,7 @@ final public class ChangeEmailAddressWindow extends Shape_Shooter_TDAssets imple
                 CancelButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Full transition to settings panel

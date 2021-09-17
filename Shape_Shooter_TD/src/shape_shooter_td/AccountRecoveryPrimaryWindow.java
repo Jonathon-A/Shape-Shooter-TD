@@ -229,7 +229,7 @@ final public class AccountRecoveryPrimaryWindow extends Shape_Shooter_TDAssets i
         //Plays key press sound effect
         if (!"Enter email address...".equals(EnteredEmailAddress)) {
             Thread T1 = new Thread(() -> {
-                setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
             });
             T1.start();
         }
@@ -264,7 +264,7 @@ final public class AccountRecoveryPrimaryWindow extends Shape_Shooter_TDAssets i
                 if (!"Enter confirmation code...".equals(ConfirmationCodeEntryField.getText())) {
                     //Plays key press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -279,7 +279,7 @@ final public class AccountRecoveryPrimaryWindow extends Shape_Shooter_TDAssets i
                 if (!"Enter confirmation code...".equals(ConfirmationCodeEntryField.getText())) {
                     //Plays key press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -390,7 +390,7 @@ final public class AccountRecoveryPrimaryWindow extends Shape_Shooter_TDAssets i
                     Shape_Shooter_TD.MainClass.AddOperationToQueue("FindCurrentUserAccountEntryFromEmailAddress", null, null, null, ValidEmailAddress);
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                     //Partial transition to account recovery secondary panel
@@ -419,7 +419,7 @@ final public class AccountRecoveryPrimaryWindow extends Shape_Shooter_TDAssets i
                 CancelButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Partial transition to title screen panel

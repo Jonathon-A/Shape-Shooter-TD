@@ -29,7 +29,7 @@ final public class Shape_Shooter_TDMusic extends Shape_Shooter_TDAssets {
          */
 
         //Sets the volume of the music track
-        setVolume(CurrentMusicTrack, Shape_Shooter_TD.MainClass.getMusicVolume());
+        SetVolume(CurrentMusicTrack, Shape_Shooter_TD.MainClass.getMusicVolume());
         //Starts the new music track
         CurrentMusicTrack.start();
         //Loops while the music track has not finished playing
@@ -52,7 +52,7 @@ final public class Shape_Shooter_TDMusic extends Shape_Shooter_TDAssets {
                 //If the music volume has been changed
                 if (PreviousMusicVolume != Shape_Shooter_TD.MainClass.getMusicVolume()) {
                     //Updates the volume of the music track
-                    setVolume(CurrentMusicTrack, Shape_Shooter_TD.MainClass.getMusicVolume());
+                    SetVolume(CurrentMusicTrack, Shape_Shooter_TD.MainClass.getMusicVolume());
                     PreviousMusicVolume = Shape_Shooter_TD.MainClass.getMusicVolume();
                 }
                 //If the music track is paused

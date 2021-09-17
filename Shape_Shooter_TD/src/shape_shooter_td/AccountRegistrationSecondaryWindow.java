@@ -125,7 +125,7 @@ final public class AccountRegistrationSecondaryWindow extends Shape_Shooter_TDAs
                 //Plays key press sound effect
                 if (!"Enter username...".equals(UsernameEntryField.getText())) {
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -140,7 +140,7 @@ final public class AccountRegistrationSecondaryWindow extends Shape_Shooter_TDAs
                 //Plays key press sound effect
                 if (!"Enter username...".equals(UsernameEntryField.getText())) {
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -326,7 +326,7 @@ final public class AccountRegistrationSecondaryWindow extends Shape_Shooter_TDAs
                 //Plays key press sound effect
                 if (!"Enter password...".equals(PasswordEntryField.getText())) {
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -341,7 +341,7 @@ final public class AccountRegistrationSecondaryWindow extends Shape_Shooter_TDAs
                 //Plays key press sound effect
                 if (!"Enter password...".equals(PasswordEntryField.getText())) {
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[0]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                 }
@@ -462,7 +462,7 @@ final public class AccountRegistrationSecondaryWindow extends Shape_Shooter_TDAs
                     Shape_Shooter_TD.MainClass.AddOperationToQueue("AddOrUpdateAccountsEntry", new UserAccountsTableEntry(NewAccountUsername, NewAccountPassword, NewAccountEmailAddress), null, null, "");
                     //Plays button press sound effect
                     Thread T1 = new Thread(() -> {
-                        setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                        SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                     });
                     T1.start();
                     //Partial transition to title screen panel
@@ -491,7 +491,7 @@ final public class AccountRegistrationSecondaryWindow extends Shape_Shooter_TDAs
                 CancelButton.setBackground(AssetsColorArray[1]);
                 //Plays button press sound effect
                 Thread T1 = new Thread(() -> {
-                    setVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
+                    SetVolume(GetNewClip(AssetsSoundDirectoryArray[3]), Shape_Shooter_TD.MainClass.getSoundVolume()).start();
                 });
                 T1.start();
                 //Partial transition to title screen panel
